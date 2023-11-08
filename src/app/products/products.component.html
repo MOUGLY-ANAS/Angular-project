@@ -1,0 +1,22 @@
+<div class="center-container">
+  <div *ngIf="products">
+    <h2>Products List</h2>
+    <ul>
+      <li *ngFor="let product of products">
+        <div>
+          <strong>Product Name:</strong> {{ product.name }}
+        </div>
+        <div>
+          <strong>Description:</strong> {{ product.description }}
+        </div>
+        <div>
+          <strong>Price:</strong> {{ product.price | currency }}
+        </div>
+        <div>
+          <strong>Stock:</strong> {{ product.stock }}
+        </div>
+        
+      </li>
+    </ul>
+  </div>
+</div>

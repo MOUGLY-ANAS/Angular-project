@@ -1,0 +1,34 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.center-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.center-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.center-container li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.center-container strong {
+  font-weight: bold;
+}
+
+.center-container ul li div {
+  margin-bottom: 10px;
+}

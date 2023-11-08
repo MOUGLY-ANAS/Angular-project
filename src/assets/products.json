@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "High-performance laptop with a fast processor.",
+      "price": 999.99,
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "description": "Latest model smartphone with advanced features.",
+      "price": 699.99,
+      "stock": 100
+    },
+    {
+      "id": 3,
+      "name": "Tablet",
+      "description": "Lightweight tablet for on-the-go productivity.",
+      "price": 299.99,
+      "stock": 25
+    }
+  ]
+  

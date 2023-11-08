@@ -1,0 +1,25 @@
+<div class="center-container">
+  <div *ngIf="orders">
+    <h2>Orders List</h2>
+    <ul>
+      <li *ngFor="let order of orders">
+        <div>
+          <strong>Order ID:</strong> {{ order.id }}
+        </div>
+        <div>
+          <strong>Product:</strong> {{ order.product }}
+        </div>
+        <div>
+          <strong>Quantity:</strong> {{ order.quantity }}
+        </div>
+        <div>
+          <strong>Customer Name:</strong> {{ order.customerName }}
+        </div>
+        <div>
+          <strong>Order Date:</strong> {{ order.orderDate | date: 'short' }}
+        </div>
+       
+      </li>
+    </ul>
+  </div>
+</div>

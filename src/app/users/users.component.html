@@ -1,0 +1,23 @@
+<div class="center-container">
+  <div *ngIf="users">
+    <h2>Users List</h2>
+    <ul>
+      <li *ngFor="let user of users">
+        <div>
+          <strong>User Name:</strong> {{ user.name }}
+        </div>
+        <div>
+          <strong>Email:</strong> {{ user.email }}
+        </div>
+        <div>
+          <strong>address:</strong> {{ user.address }}
+
+        </div>
+
+        <div>
+          <strong>phone:</strong> {{ user.phone }}
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
