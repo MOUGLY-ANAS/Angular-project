@@ -16,4 +16,10 @@ export class ProductsComponent implements OnInit {
       this.products = data;
     });
   }
+
+  buyProduct(product: any) {
+    // Ajoutez votre logique d'achat ici
+    console.log('Acheter le produit :', product.name);
+    alert('Le produit ' + product.name + ' est acheté');
+  }
 }
